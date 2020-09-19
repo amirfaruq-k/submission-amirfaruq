@@ -1,0 +1,6 @@
+/dist
+node_modules
+
+.prettierignore
+package-lock.json
+yarn.lock
