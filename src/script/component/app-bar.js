@@ -1,3 +1,5 @@
+import logo from '../../assets/images/logo.png';
+
 class AppBar extends HTMLElement {
 
     constructor() {
@@ -47,7 +49,7 @@ class AppBar extends HTMLElement {
        </h2>
 
        <figure class="profile">
-            <img id="imageFigure" alt="Logo">
+            <img id="imageFigure" alt="Logo" src="${logo}">
         </figure>`;
     }
 }
